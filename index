@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -148,12 +149,28 @@
 
         <!-- Footer -->
         <footer class="bg-dark text=white-center py-3">
-            <p class="m-0">&copy; Jonas Marchi - SENAI. Todos os direitos reservados.</p>
+            <p class="m-0">&copy; Matheus Guimarães - SENAI. Todos os direitos reservados.</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
         <script>
             // criar um evento a partir do clique do botão
+            document.getElementById('whatsappForm').addEventListener('submit',function(e){
+                e.preventDefault();
+
+                const telefone = '5541999999'
+
+                const nome = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const mensagem = document.getElementById('message').value;
+
+                const text = `Olá \nMeu nome é ${nome}, meu email é: ${email}.\nMensagem:${mensagem}`;
+
+                const encodeText = encodeURIComponent(text);
+                const whatsappURL = `https://wa.me/${telefone}?text=$encodedText`;
+                
+                window.open(whatsappURL,"_blank");
+            })
         </script>
     </body>
 </html>
