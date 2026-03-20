@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso de Desenvolvimento de Sistemas - SENAI</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelvr.net/npm/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <body>
+        <!-- header botoes de navegacao -->
+        <header class="text-white py -3">
+            <div class="container d-flex justify-content-between aling-items-center">
+                <h1 class="m-0">SENAI CURSOS</h1>
+                <nav>
+                    <a href="#about" class="text-white mx-3 text-decoration-none">Sobre o curso</a>
+                    <a href="#modules" class="text-white mx-3 text-decoration-none">Módulos</a>
+                    <a href="contact" class="text-white mx-3 text-decoration-none">Contato</a>
+                </nav>
+            </div>
+            
+        </header>
+        <!-- Hero section -->
+        <section class="hero bg-light text-center py-5">
+            <div class="container">
+                <h2 class="fw-bold">Curso de Desenvolvimento de Sistemas</h2>
+                <p class="lead">Aprenda a criar soluções digitais moderans e transforme a sua careira</p>
+                <a href="#contact" class="btn btn-primary btn-lg mt-3">Inscreva-se agora</a>
+            <div>
+        </section>
+        <!-- Sobre o curso -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="roq aling-items-center">
+                    <div class="col-md-6">
+                        <h2 class="fw-bold">Por que escolher este curso?</h2>
+                        <p>O curso de Desenvolvimento de Sistemas do SENAI é voltado para quem deseja ingressar ou se especializar no mercado de tecnologia. Com uma abordagem prática, e conteúdos atualizados, você estará preparado para criar soluções de software inovadores</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="./assets/img/img.jpg" alt="Desenvolvimento de Sistemas"class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Módulos do Curso (Carrossel) -->
+        <section id="modules" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center fw-bold">O quê você vai aprender</h2>
+                <div id="courseCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lógica de Programação</h5>
+                                    <p class="card-text">Entenda os fundamentos de algoritmos e aprender a solucionar problemas de forma lógica e eficiente.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Redes de computadores</h5>
+                                    <p class="card-text">Aprenda sobre a comunciação entre computadores e redes, incluindo protocolo e segurança
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Banco de Dados</h5>
+                                    <p class="card-text">Aprenda a criar, conectar e gerenciar bancos de dados para armazenar informações de forma eficiente
+                                    </p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Programação de aplicativos</h5>
+                                    <p class="card-text">Crie aplicativos móveis para Android e iOS com as mais modernas ferramentas de Desenvolvimento</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Desenvolvimento de Sistemas</h5>
+                                    <p class="card-text">Desenvolva sistemas com´letos, do front-end ao back-end, com a tecnologia mais avançada</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Implantação de Sistemas</h5>
+                                    <p class="card-text">Siba como implantar sistemas com eficiência, garantindo a continuidade e desempenho das operações</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Teste de Sistemas</h5>
+                                    <p class="card-text">Aprenda a testar e garantir a qualidade dos sistemas antes de sua implantação final.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário de contato -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center fw-bold">Entre em Contato</h2>
+                <p class="text-center">Preencha o formulário abaixo para se inscrever ou tirar dúvidas.</p>
+
+                <form id-="whatsappForm " class="mt-4">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Seu Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Seu Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Sua Mensagem</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                </form>
+                <button type="submit" class="btn btn-primary w-100">Enviar pelo Whatsapp</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text=white-center py-3">
+            <p class="m-0">&copy; Jonas Marchi - SENAI. Todos os direitos reservados.</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script>
+            // criar um evento a partir do clique do botão
+        </script>
+    </body>
+</html>
