@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Texto 02</title>
+    <style>
+        /* estilo geral */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f8ff;
+            color: #004f4f;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        /* Estilo para o H1 */
+        h1{
+            color: #00ced1;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Quebra de linha e quebra temática*/
+        p{
+            margin: 10px 0;
+        }
+
+        hr{
+            border: 1px solid #00ced1;
+            margin: 20px 0;
+        }
+         /*Estilo para a marcação semântica */
+         strong{
+            font-weight: bold;
+            color: #008b8b;
+         }
+
+         em{
+            font-style: italic;
+            color: #20b2aa;
+         }
+         blockquote{
+            background-color: #e0ffff;
+            border-left: 5px solid #00ced1;
+            margin: 20px;
+            padding: 10px 20px;
+            font-style: italic;
+         }
+
+         q{
+            color: #00ced1;
+            font-style: italic;
+         }
+
+         /* Outras Tags */
+         abbr{
+            background-color: #e0ffff;
+            padding: 2px 5px;
+            border-radius: 3px;
+         }
+
+         cite{
+            font-style: normal;
+            color: #20b2aa;
+         }
+         dfn{
+            font-style: italic;
+            color: #008b8b;
+         }
+    </style>
+</head>
+<body>
+    <h1>Texto (Parte 02)</h1>
+
+    <!-- Quebra de linha e Quebra temática -->
+     <p>isso está <br> em uma <br> nova linha.</p>
+     <p>Tema interessante 01</p>
+     <hr>
+     <p>Tema interessante 02</p>
+
+     <!-- Marcação -->
+
+     <p><strong>Cuidado!</strong> Alta Voltagem! <em>Somente pessoal autorizado.</em></p>
+     <blockquote cite="https://en.wikipedia.org/wiki/Wiki"><p>Citações longas...</p></blockquote>
+     <p>Fulano disse que <q>Lorem ipsum dolor sit amet consectetur.</q></p>
+
+     <!-- Outras Tags -->
+      <p>
+        <abbr title="Professor">Prof</abbr> Fulano em seu livro
+        <cite>Livro bem legal</cite> definiu mais precisamente...
+      </p>
+
+      <p><bfn>Buraco Negro</bfn> é região do espaço que...</p>
+      <address>
+        <p> Rua ABC, n<sup>o</sup> 123...</p>
+      </address>
+
+      <p>O Oscar vai para <del>La La Land</del> <ins>Moonlight</ins></p>
+      <p>Computador de <s>R$2.249,90</s> por 1.799,99</p>
+</body>
+</html>

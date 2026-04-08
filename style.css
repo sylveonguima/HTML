@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
+}
+
+header{
+    background:linear-gradient(135deg, #007bff, #0056b3);
+    border-bottom: #fff solid 1.5px;
+}
+
+.hero{
+    background: linear-gradient(135deg,  #007bff, #0056b3);
+    color: #fff;
+}
+
+/* está em .hero pq hero é uma classe, com # é id  */
+.hero h2{
+    font-size: 2.5rem;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+footer{
+    font-size: 0.9rem;
+}
+
+/* card no carrossel */
+.card{
+    border:none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+/* Módulo carrossel*/
+
+.carousel-inner .carousel-item{
+    text-align: center;
+}
+
+.carousel--control-prev .carousel-control-next{
+    color: #007bff
+}
+
+.carousel--control-prev-icon .carousel-control-next-icon{
+    background-color: #007bff;
+}
+
+
+/* RESPONSIVIDADE */
+@media(max-width:768px){
+    .hero h2{
+        font-size: 2rem
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+
+    .card-title{
+        font-size: 1.125;
+    }
+
+    .card-text{
+        font-size: 0.875rem;
+    }
+}
